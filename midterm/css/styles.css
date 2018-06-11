@@ -1,0 +1,50 @@
+body {
+background-color: #DFEFF0;
+font-family: "Arial, Helvetica, sans-serif";
+color: #333333;
+}
+.container {
+margin: 0 auto;
+width: 80%;
+max-width: 960px;
+}
+.fill { 
+width: 100%;
+}
+h1 { 
+margin: 0;
+color: #AD235E;
+border-bottom: solid #AD235E;
+border-width: 3px;
+}
+h2 { 
+margin: 0;
+}
+form { 
+padding: 25px;
+background-color: rgba(255,255,255,0.5);
+}
+a { 
+color: #AD235E;
+text-decoration: none;
+}
+a:hover {
+color: #7D9C9F;
+}
+footer { 
+border-top: solid #AD235E;
+border-width: 3px;
+}
+article, aside { 
+display: table-cell;
+background-color: #C1FDC1;
+padding: 25px;
+}
+article {
+background-image: url("../images/clouds.jpg");
+background-size: cover;
+width: 70%;
+}
+aside { 
+width: 30%;
+}
